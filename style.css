@@ -3,6 +3,7 @@ body, h1, h2, h3, h4, h5, h6 {font-family: 'Honk', system-ui;}
 
 .grid-container {
     display: grid;
+    max-width: 100%;width: 100%;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     padding: 10px;
