@@ -13,7 +13,16 @@ body, h1, h2, h3, h4, h5, h6 {font-family: 'Honk', system-ui;}
     border: 1px solid #ddd;
     padding: 20px;
     text-align: center;
+    background-size: cover; /* Cover the entire grid item */
+    background-position: center; /* Center the background image */
+    position: relative; /* Required for overlay text */
+    color: white; /* Change text color for visibility */
   }
+  
+  .grid-item {
+    height: 200px; /* Adjust as needed */
+  }
+  
   
   .header {
     text-align: center;
